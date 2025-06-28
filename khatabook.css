@@ -1,0 +1,169 @@
+html {
+  background-color: #faf5f1;
+}
+body {
+  background-color: white;
+  width: 90%;
+  height: 900px;
+  border-radius: 10px;
+  margin-left: 5%;
+  margin-top: 4%;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+header {
+  border-radius: 10px;
+  height: 50px;
+  display: flex;
+}
+header h2 {
+  margin-top: -9%;
+}
+.Account {
+  margin-left: 47%;
+  margin-top: 7%;
+  height: 40px;
+  width: 200px;
+  display: flex;
+  gap: 10px;
+}
+.Account .searchBox {
+  border-radius: 20px;
+  margin-left: -15%;
+  outline: none;
+  font-size: 20px;
+  color: rgb(233, 0, 0);
+  background-color: rgba(227, 225, 225, 0.5);
+  border: none;
+  display: flex;
+  transition: all 2s ease;
+  width: 170px;
+}
+
+.Account .searchBox:hover {
+  margin-left: -80%;
+  width: 300px;
+}
+
+.Account .searchBox i {
+  position: absolute;
+  top: 8.3rem;
+  left: 48.2rem;
+  height: 25px;
+  width: 57px;
+  transition: left 1s ease;
+}
+.Account .searchBox1 {
+  transition: left 1s ease;
+}
+.Account .searchBox1:hover {
+  left: 45rem;
+}
+
+.Account .searchBox input {
+  outline: none;
+  height: 34px;
+  width: 150px;
+  border-radius: 20px;
+  border: none;
+  font-size: 20px;
+  background-color: rgba(227, 225, 225, 0.1);
+  position: absolute;
+  top: 7.9rem;
+  left: 49.5rem;
+  transition: left 1s ease;
+}
+
+.Account img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  position: absolute;
+  left: 59rem;
+}
+
+header h2 {
+  font-family: arial;
+  margin-left: 3%;
+  margin-top: 7.5%;
+  font-size: 29px;
+  width: 200px;
+}
+.hr1 {
+  margin-top: 6.8%;
+  width: 95%;
+}
+.tabs {
+  display: flex;
+  flex-direction: column;
+}
+
+.tab {
+  display: flex;
+}
+.tab + .tab {
+  margin-top: 0.5rem;
+}
+
+.tab-btn {
+  border: none;
+  background-color: transparent;
+  padding: 0.75rem;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  width: 12%;
+  font-weight: 500;
+}
+.tab-btn:hover {
+  color: #fc9803;
+  background-color: #fcf1d4;
+}
+.tab-btn i {
+  margin-right: 0.75rem;
+  font-size: 1.25em;
+}
+main {
+  border: 0.5px solid black;
+  width: 40%;
+  height: 19%;
+  margin-left: 20%;
+  margin-top: -12.3%;
+  border-radius: 10px;
+  text-align: center;
+  font-family: arial;
+}
+main .dept {
+  color: #63c4b1;
+}
+main2 {
+  position: absolute;
+  left: 54rem;
+  top: 13rem;
+}
+main2 img {
+  width: 400px;
+  height: 175px;
+  border-radius: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.main3 {
+  margin-left: 20%;
+  margin-top: 2%;
+  border: 0.5px solid black;
+  border-radius: 10px;
+  width: 72%;
+}
+.main3 .main3-header {
+  display: flex;
+  borded: 1px solid black;
+}
+.main3 #date-of-trip {
+  font-family: san-sarife;
+  margin-left: 5%;
+  font-size: 26px;
+  color: #1e1e1e;
+}
+.main3 #dept1 {
+  margin-left: 40%;
+}
